@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="LoginPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="703.0" prefWidth="1080.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.layerd.controller.loginformcontroller">
+   <children>
+      <AnchorPane prefHeight="710.0" prefWidth="676.0" />
+      <AnchorPane layoutX="-2.0" prefHeight="703.0" prefWidth="682.0" style="-fx-background-color: #3e6aa4;">
+         <children>
+            <Text fill="WHITE" layoutX="92.0" layoutY="489.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HYBE ENTERTAINTMENT ">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="416.0" fitWidth="642.0" layoutX="21.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../IdeaProjects/javafx-fxml/KpopManagementSystem/src/main/resources/assests/HYBE-labels.jpeg" />
+               </image>
+            </ImageView>
+            <Text fill="#f5f3f3" layoutX="99.0" layoutY="537.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MANAGEMENT SYSTEM">
+               <font>
+                  <Font name="System Bold Italic" size="36.0" />
+               </font>
+            </Text>
+            <Text fill="#fcf9f9" layoutX="156.0" layoutY="649.0" strokeType="OUTSIDE" strokeWidth="0.0" text="copyright @ hybe entertainment All right reserverd" />
+         </children>
+      </AnchorPane>
+      <Text fill="#3e6aa4" layoutX="696.0" layoutY="176.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome !">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Text>
+      <Text fill="#3e6aa4" layoutX="711.0" layoutY="265.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Id">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#3e6aa4" layoutX="711.0" layoutY="370.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtname" layoutX="711.0" layoutY="377.0" prefHeight="44.0" prefWidth="314.0" promptText="Password" />
+      <Button layoutX="759.0" layoutY="522.0" mnemonicParsing="false" onAction="#btnLoginOnAction" prefHeight="56.0" prefWidth="271.0" style="-fx-background-color: #3e6aa4;" text="Login" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="30.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtU_Id" layoutX="712.0" layoutY="270.0" prefHeight="44.0" prefWidth="314.0" promptText="U_ID" />
+      <ImageView fitHeight="109.0" fitWidth="225.0" layoutX="856.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../IdeaProjects/javafx-fxml/KpopManagementSystem/src/main/resources/assests/loginpage.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="21.0" fitWidth="35.0" layoutX="982.0" layoutY="389.0" opacity="0.73" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../IdeaProjects/javafx-fxml/KpopManagementSystem/src/main/resources/assests/eye.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

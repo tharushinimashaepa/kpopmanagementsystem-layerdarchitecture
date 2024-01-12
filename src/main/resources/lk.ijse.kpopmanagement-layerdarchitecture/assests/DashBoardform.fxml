@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="DashBordPane" prefHeight="703.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.layerd.controller.dashboardformcontroller">
+   <children>
+      <ImageView fitHeight="703.0" fitWidth="1086.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="770.0" fitWidth="1258.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../IdeaProjects/javafx-fxml/KpopManagementSystem/src/main/resources/assests/HYBE-labels.jpeg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="653.0" layoutX="34.0" layoutY="48.0" opacity="0.39" stroke="WHITE" strokeType="INSIDE" width="1216.0" />
+      <AnchorPane layoutX="64.0" layoutY="158.0" prefHeight="468.0" prefWidth="222.0" style="-fx-background-color: ffffff;">
+         <children>
+            <Button layoutX="23.0" layoutY="20.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="175.0" style="-fx-background-color: #3e6aa4;" text="DashBoard" textFill="WHITE" />
+            <Button fx:id="btnIdolGroup" layoutX="23.0" layoutY="84.0" mnemonicParsing="false" onAction="#btnIdolOnAction" prefHeight="47.0" prefWidth="175.0" style="-fx-background-color: #3e6aa4;" text="Idol Group" textFill="#f2eded" />
+            <Button fx:id="btnMusicproducer" layoutX="23.0" layoutY="148.0" mnemonicParsing="false" onAction="#btnMusicProducerOnAction" prefHeight="47.0" prefWidth="175.0" style="-fx-background-color: #3e6aa4;" text="    Music Producer" textFill="WHITE" />
+            <Button fx:id="btneventmanager" layoutX="23.0" layoutY="209.0" mnemonicParsing="false" onAction="#btnFansClubOnAction" prefHeight="47.0" prefWidth="175.0" style="-fx-background-color: #3e6aa4;" text="Fans Club" textFill="WHITE" />
+            <Button fx:id="btnMusic" layoutX="23.0" layoutY="273.0" mnemonicParsing="false" onAction="#btnMusicOnAction" prefHeight="47.0" prefWidth="175.0" style="-fx-background-color: #3e6aa4;" text="Music" textFill="WHITE" />
+            <Button fx:id="btnEvent" layoutX="23.0" layoutY="338.0" mnemonicParsing="false" onAction="#btnEventOnAction" prefHeight="47.0" prefWidth="175.0" style="-fx-background-color: #3e6aa4;" text="Event" textFill="#fffdfd" />
+            <Button fx:id="btnMerchandice" layoutX="23.0" layoutY="402.0" mnemonicParsing="false" onAction="#btnMerchandiceOnAction" prefHeight="47.0" prefWidth="175.0" style="-fx-background-color: #3e6aa4;" text="Merchandice" textFill="#fffdfd" />
+            <ImageView fitHeight="38.0" fitWidth="32.0" layoutX="32.0" layoutY="28.0" opacity="0.52" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../IdeaProjects/javafx-fxml/KpopManagementSystem/src/main/resources/assests/dashboard.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="38.0" fitWidth="43.0" layoutX="29.0" layoutY="90.0" opacity="0.55" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../IdeaProjects/javafx-fxml/KpopManagementSystem/src/main/resources/assests/role-model.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="38.0" fitWidth="43.0" layoutX="25.0" layoutY="153.0" opacity="0.48" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../IdeaProjects/javafx-fxml/KpopManagementSystem/src/main/resources/assests/producer.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="38.0" fitWidth="43.0" layoutX="26.0" layoutY="210.0" opacity="0.52" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../IdeaProjects/javafx-fxml/KpopManagementSystem/src/main/resources/assests/group.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="38.0" fitWidth="43.0" layoutX="29.0" layoutY="280.0" opacity="0.54" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../IdeaProjects/javafx-fxml/KpopManagementSystem/src/main/resources/assests/music-note.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="38.0" fitWidth="43.0" layoutX="28.0" layoutY="345.0" opacity="0.51" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../IdeaProjects/javafx-fxml/KpopManagementSystem/src/main/resources/assests/participation.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="38.0" fitWidth="43.0" layoutX="28.0" layoutY="408.0" opacity="0.61" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../IdeaProjects/javafx-fxml/KpopManagementSystem/src/main/resources/assests/music(2).png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label layoutX="129.0" layoutY="101.0" text="Insight" textFill="#0449a4">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Label>
+      <AnchorPane fx:id="subPane" layoutX="300.0" layoutY="68.0" prefHeight="560.0" prefWidth="925.0" style="-fx-background-color: white;">
+         <children>
+            <ImageView fitHeight="620.0" fitWidth="972.0" layoutX="-2.0" layoutY="-3.0" opacity="0.51" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../IdeaProjects/javafx-fxml/KpopManagementSystem/src/main/resources/assests/e965d38d-bd50-4e63-a720-f837bda1642b.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="298.0" fitWidth="569.0" layoutX="378.0" layoutY="301.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../IdeaProjects/javafx-fxml/KpopManagementSystem/src/main/resources/assests/ked202107020011.700x.0.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="272.0" fitWidth="345.0" layoutX="566.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../IdeaProjects/javafx-fxml/KpopManagementSystem/src/main/resources/assests/20210719000553_0.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="317.0" fitWidth="306.0" layoutX="21.0" layoutY="288.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../IdeaProjects/javafx-fxml/KpopManagementSystem/src/main/resources/assests/charts.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="271.0" fitWidth="505.0" layoutX="44.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../IdeaProjects/javafx-fxml/KpopManagementSystem/src/main/resources/assests/2e2845d1-ea7d-4805-bfa3-9e80775d41ca_1264x634.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Text fill="#0449a4" layoutX="66.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HYBE">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

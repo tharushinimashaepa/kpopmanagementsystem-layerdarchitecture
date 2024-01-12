@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="IdolPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="925.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.layerd.controller.idolformcontroller">
+   <children>
+      <ImageView fitHeight="560.0" fitWidth="925.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="581.0" fitWidth="1020.0" layoutY="-3.0" opacity="0.45" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../IdeaProjects/javafx-fxml/KpopManagementSystem/src/main/resources/assests/bts-wallpaper-57.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="109.0" fitWidth="130.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../IdeaProjects/javafx-fxml/KpopManagementSystem/src/main/resources/assests/idol.png" />
+         </image>
+      </ImageView>
+      <Text fill="#0c376f" layoutX="134.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="IDOL GROUPS" wrappingWidth="345.478515625">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Text>
+      <Text fill="#3e6aa4" layoutX="33.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="IDOL ID">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#3e6aa4" layoutX="263.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GROUP NAME">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#3e6aa4" layoutX="27.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MEMBER COUNT">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#3e6aa4" layoutX="272.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FANDOM NAME">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtMemberCount" layoutX="24.0" layoutY="266.0" prefHeight="42.0" prefWidth="203.0" />
+      <TextField fx:id="txtFadomName" layoutX="269.0" layoutY="266.0" prefHeight="42.0" prefWidth="203.0" />
+      <TextField fx:id="txtName" layoutX="267.0" layoutY="169.0" prefHeight="42.0" prefWidth="203.0" />
+      <TextField fx:id="txtId" layoutX="24.0" layoutY="169.0" prefHeight="42.0" prefWidth="203.0" />
+      <TableView fx:id="tblIdol" layoutX="479.0" layoutY="190.0" prefHeight="317.0" prefWidth="427.0">
+         <columns>
+            <TableColumn fx:id="colIdolId" prefWidth="75.0" text="ID" />
+            <TableColumn fx:id="colIdolName" prefWidth="134.0" text="Group Name" />
+            <TableColumn fx:id="colMemberCount" prefWidth="83.0" text="Member Co" />
+            <TableColumn fx:id="colFandomName" prefWidth="134.0" text="Fandom Name" />
+         </columns>
+      </TableView>
+      <Button layoutX="50.0" layoutY="363.0" mnemonicParsing="false" onAction="#btnSaveOnAcion" prefHeight="42.0" prefWidth="132.0" style="-fx-background-color: #3e6aa4;" text="      SAVE" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="273.0" layoutY="431.0" mnemonicParsing="false" onAction="#btnSearchOnAction" prefHeight="42.0" prefWidth="132.0" style="-fx-background-color: #3e6aa4;" text="        SEARCH" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="52.0" layoutY="430.0" mnemonicParsing="false" onAction="#btnDeleteOnAction" prefHeight="42.0" prefWidth="132.0" style="-fx-background-color: #3e6aa4;" text="      DELETE" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="273.0" layoutY="365.0" mnemonicParsing="false" onAction="#btnUpdateOnAcion" prefHeight="42.0" prefWidth="132.0" style="-fx-background-color: #3e6aa4;" text="       UPDATE" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="32.0" fitWidth="36.0" layoutX="54.0" layoutY="370.0" opacity="0.46" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../IdeaProjects/javafx-fxml/KpopManagementSystem/src/main/resources/assests/bookmark.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="36.0" layoutX="281.0" layoutY="436.0" opacity="0.46" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../IdeaProjects/javafx-fxml/KpopManagementSystem/src/main/resources/assests/magnifier.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="36.0" layoutX="56.0" layoutY="436.0" opacity="0.46" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../IdeaProjects/javafx-fxml/KpopManagementSystem/src/main/resources/assests/bin.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="36.0" layoutX="281.0" layoutY="370.0" opacity="0.46" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../IdeaProjects/javafx-fxml/KpopManagementSystem/src/main/resources/assests/data-processing.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="706.0" layoutY="32.0" opacity="0.42" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../IdeaProjects/javafx-fxml/KpopManagementSystem/src/main/resources/assests/role-model.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="161.0" layoutY="494.0" mnemonicParsing="false" onAction="#btnBackOnAction" prefHeight="42.0" prefWidth="132.0" style="-fx-background-color: #3e6aa4;" text="Back">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
